@@ -94,3 +94,15 @@ docker push yourusername/simpleapp                  (to push iamge to dockerhub)
 
 🌐To pull an image from Docker Hub
 docker pull username/image-name                      (to pull image from docker hub to vm)
+
+🛑 1. Stop a running container
+docker stop <container_id_or_name>
+
+🛑 1. Start a stopped container
+docker start <container_id_or_name>
+
+❌ 2. Remove a container
+docker rm <container_id_or_name>
+
+🧹 3. Remove an image
+docker rmi <image_id_or_name>
