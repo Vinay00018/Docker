@@ -1,4 +1,4 @@
-<img width="720" height="379" alt="image" src="https://github.com/user-attachments/assets/0e287cb2-eff2-4d96-866c-39dfc7ecc85b" /># Docker
+# Docker
 🚢 What is Docker?
 Docker is a tool used to package your application and everything it needs (code, libraries, environment) into a container.
 
