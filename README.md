@@ -62,4 +62,35 @@ EXPOSE 5000
  7. ENV – Set environment variables inside container
 ENV ENVIRONMENT=production
 
+🔧 Docker Installation (simple):
 
+sudo apt update
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker $USER
+🔍 Check Docker version:
+docker --version
+
+🛠️ Build Docker Image (-t is tag simpleapp is imagename and (.)is a directory if dockerfile in same folder use . else use ./pathname)
+docker build -t simpleapp .
+
+📋 List all local Docker images
+docker images
+
+▶️ Run a container from the image (-d is deamon mode and -p is port first dockerport:second vm port )
+docker run -d -p 8000:8000 simpleapp
+
+📦 Show running containers
+docker ps
+
+📦 Show all containers (running + stopped)
+docker ps -a
+
+🌐 Push to Docker Hub
+docker login                                      (to login to docker hub website)
+docker tag simpleapp yourusername/simpleapp        (tag to create name path in dockerhub)
+docker push yourusername/simpleapp                  (to push iamge to dockerhub)
+
+🌐To pull an image from Docker Hub
+docker pull username/image-name                      (to pull image from docker hub to vm)
