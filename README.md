@@ -1,5 +1,6 @@
 # Docker
 🚢 What is Docker?
+Docker is a containerization platform
 Docker is a tool used to package your application and everything it needs (code, libraries, environment) into a container.
 
 🧱 Key Concepts:
