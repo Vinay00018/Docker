@@ -36,7 +36,7 @@ Easy to scale – great for microservices.
 ☁️ Registry: Stores Docker images (e.g., Docker Hub).
 📦 Client pulls images from registry → Daemon runs them as containers
 
-********* by default the file must be named Dockerfile *****
+******* by default the file must be named Dockerfile *****
 
 | Command      | What it does                                                               |
 | ------------ | -------------------------------------------------------------------------  |
